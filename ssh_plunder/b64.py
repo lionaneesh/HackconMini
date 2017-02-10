@@ -8,6 +8,6 @@ words = line.split()
 
 
 for word in words:
-	print base64.b64encode(word)
+	print base64.b64encode(word).replace("=" , "" )
 
 
